@@ -1,0 +1,1 @@
+Script showing how to clear down the environment
