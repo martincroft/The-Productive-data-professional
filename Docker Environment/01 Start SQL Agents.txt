@@ -1,0 +1,12 @@
+#These need to be ran from the command line in a single line of text, if error remove additional spaces
+
+docker exec -u root -t -i edinburgh/bin/bash
+ /opt/mssql/bin/mssql-conf set sqlagent.enabled true 
+
+docker exec -u root -t -i manchester /bin/bash
+ /opt/mssql/bin/mssql-conf set sqlagent.enabled true 
+
+docker exec -u root -t -i glasgow/bin/bash
+ /opt/mssql/bin/mssql-conf set sqlagent.enabled true 
+
+
